@@ -236,11 +236,6 @@ fun MoreScreen(
                     onPreferenceClick = { uriHandler.openUri(Constants.URL_HELP) },
                 )
             }
-            // KMK -->
-            item {
-                Sponsor()
-            }
-            // KMK <--
         }
     }
 }
